@@ -1,0 +1,114 @@
+body{ font-family: Tajawal, 'Helvetica Neue', Helvetica, sans-serif !important;}
+canvas{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.settings-floating-box{
+	width:200pt;
+	height:100pt;
+	margin:5pt;
+	border-color:#A70000;
+	border-style:solid;
+	border-width:1px;
+	border-radius:3px;
+	background-color:#FF7B7B;
+	padding:5pt;
+	color:white;
+	
+}
+.settings-floating-box .title{
+	color:#550000;
+	font-size:140%;
+	font-weight:bold;
+}
+.canvas-top-spacer{
+	width:20pt;
+}
+.canvas-container{
+	width:80%;
+	margin:auto;
+}
+@media only screen and (max-width: 600px) {
+    .canvas-top-spacer{
+		width:0pt;
+	}
+	.canvas-container{
+		width:100%;
+	}
+}
+
+body,html{
+	margin:0;
+	padding:0;
+}
+.top-bar{
+	width:100%;
+	background-color:#153E54;
+	color:white;
+	font-size:200%;
+	padding:3pt;
+	box-sizing: border-box;
+	
+}
+
+.page-container{
+	padding:5pt;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+.table_titles, .table_cells_odd, .table_cells_even {
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #000;
+}
+
+.table_titles {
+color: #FFF;
+background-color: #666;
+}
+
+.table_cells_odd {
+background-color: #CCC;
+}
+
+.table_cells_even {
+background-color: #FAFAFA;
+}
+
+table {
+border: 2px solid #333;
+}
+
+body { font-family: "Trebuchet MS", Arial; 
+}
